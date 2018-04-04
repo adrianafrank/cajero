@@ -21,6 +21,11 @@ class ejecuciones extends datos {
 		$array=mysqli_fetch_assoc($this->resultado);
 		return $assoc;
 	}
+
+	   public function numero_registros($stmt){
+      return mysqli_num_rows($stmt);
+   }
+
 }
 
  ?>

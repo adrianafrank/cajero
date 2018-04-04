@@ -28,6 +28,11 @@ class ejecuciones extends datos {
       return $this->array;
    }
 
+      public function obtener_fila($stmt){
+      $this->array=mysqli_fetch_array($stmt);
+      return $this->array;
+   }
+
 	  public function numero_registros($stmt){
       return mysqli_num_rows($stmt);
    }

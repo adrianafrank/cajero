@@ -24,6 +24,33 @@ $(function(){
 
 		});
 	});
+
+		$('#frm-codigott').submit(function(e) {
+
+		e.preventDefault();
+
+		var controlador="validar_clave.php";
+
+		$.ajax({
+			url:controlador,
+			type:'POST',
+			data:$('#frm-codigott').serialize(),
+			success:function (retorno) {
+
+				if (retorno=='si') {
+					$('#mensaje1').show(250).delay(1000).hide(500);
+					window.setTimeout("window.location='opciones.php';", 2000);
+				} else if(retorno=='no'){
+					$('#mensaje2').show(250).delay(1000).hide(500);
+					window.setTimeout("window.location='clave.php';", 2000);
+				}
+
+			}
+
+
+		});
+	});
+
 });
 
 	

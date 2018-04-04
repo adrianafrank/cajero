@@ -10,7 +10,7 @@
 
 	<section>
 		<div class="container">
-			<div class="row" style="border:1px solid #ccc;margin-top: 80px;">
+			<div class="row z-depth-4" style="border:1px solid #ccc;margin-top: 80px;">
 				<div class="col l6">
 					<div class="row">
 						<div class="col l12">
@@ -25,18 +25,14 @@
 						          <label for="last_name" style="margin-top: 15px;">Ingrese Código de Tarjeta</label>
 						        </div>
 						        <div class="right-align">
-						        	<button type="submit" class="waves-effect waves-light btn">Verificar</button>
+						        	<button type="submit" class="blue lighten-1 btn">Verificar</button>
 						        </div>
 					  		</form>
 					  	</div>
 					</div>
 				</div>
 				<div class="col l6 center-align">
-					<div class="row">
-						<div class="col l6">
-							<img src="caje.jpg" alt="" height="300" style="border-radius: 10px; margin-top: 10px;">
-						</div>
-					</div>
+					<img src="mejora.png" alt="" height="300" width="350" style="border-radius: 10px; margin-top: 10px;margin-bottom: 10px;">
 				</div>
 			</div>
 			<div  id="mensaje1" hidden class="card-panel green darken-4 grey-text text-lighten-5 ">Proceso Exitoso <br>Has ingresado correctamente Bienvenido !!</div>

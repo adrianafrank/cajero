@@ -16,13 +16,19 @@ class ejecuciones extends datos {
 		return $array;
 	}
 
+
 		public function obtener_fila_as()
 	{
 		$array=mysqli_fetch_assoc($this->resultado);
 		return $assoc;
 	}
+	
+	   public function obtener_fila_asociativa($stmt){
+      $this->array=mysqli_fetch_assoc($stmt);
+      return $this->array;
+   }
 
-	   public function numero_registros($stmt){
+	  public function numero_registros($stmt){
       return mysqli_num_rows($stmt);
    }
 

@@ -41,8 +41,7 @@
 							 <div class="card-panel">
 							    <span class="blue-text text-lighten-1"><?php echo $fila['nombre']; ?></span>
 							 </div>
-						</div>
-						
+						</div>	
 					</div>
 					<div class="row">
 						<div class="col l10 offset-l1 center-align" style="border-top:5px solid #42a5f5;">

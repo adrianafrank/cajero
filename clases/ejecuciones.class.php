@@ -37,6 +37,10 @@ class ejecuciones extends datos {
       return mysqli_num_rows($stmt);
    }
 
+      public function numero_registros_afectados(){
+      return mysqli_affected_rows($this->enlace);
+   }
+
 }
 
  ?>

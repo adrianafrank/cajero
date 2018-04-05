@@ -92,5 +92,8 @@
 		</div>
 	</section>
 	
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="materialize/js/materialize.js"></script>
+	<script src="js/procesos.js"></script>
 </body>
 </html>
